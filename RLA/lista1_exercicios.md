@@ -37,10 +37,10 @@ SE num>=0 ENTAO
 		ESCREVA "numero é impar"
 	FIM_SE
 SENAO
-ESCREVA "esse numero não é positivo"
+	ESCREVA "esse numero não é positivo"
+FIM_SE
 FIM
 ```
-
 #### TESTE
 | num | num >= 0 | resto | resto == 0 | Saída |
 | -- | -- | -- | -- | -- |
@@ -48,6 +48,7 @@ FIM
 |0| True | 0 | True | "o numero é par" |
 |10| True | 0 | True | "o numero é par"|
 |11| True | 1 | False | "o numero é impar"|
+
 
 
 
